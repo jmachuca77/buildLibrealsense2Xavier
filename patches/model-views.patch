@@ -1,12 +1,11 @@
 diff --git a/common/model-views.cpp b/common/model-views.cpp
-index eaeac779..ad246523 100644
+index d974973..c7b0c3a 100644
 --- a/common/model-views.cpp
 +++ b/common/model-views.cpp
-@@ -3971,6 +3971,7 @@ namespace rs2
+@@ -3938,6 +3938,7 @@ namespace rs2
                  }
              }
              catch (...) {}
 +            std::this_thread::sleep_for(std::chrono::milliseconds(5));
          }
-     }
-
+     } 
